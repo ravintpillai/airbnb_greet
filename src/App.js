@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import photo from './images/airbnb.jpg';
 import './App.css';
+import Welcome from './Welcome'
+import gridExamplesPage from './gridExamples';
 
 class App extends Component {
   render() {
     return (
+      
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        {gridExamplesPage()}
+        <div class="header-image">
+          <img
+                src="https://live.staticflickr.com/7898/32588548347_102e2859a7_z.jpg"
+                className="img-fluid"
+                alt=""
+          />
+        </div>
+          <Welcome />
       </div>
     );
   }
