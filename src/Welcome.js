@@ -5,7 +5,7 @@ class Welcome extends Component {
   render() {
     return (
       <div className="Welcome">
-        <p>Welcome to County Hall!</p>
+        <p>Welcome to London & County Hall!</p>
       </div>
     );
   }

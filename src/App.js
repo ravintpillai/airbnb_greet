@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
-import photo from './images/airbnb.jpg';
 import './App.css';
-import Welcome from './Welcome'
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {Landing} from './Landing';
+import {Eating} from './Eating'
+import {ToDo} from './ToDo'
+import {Apartment} from './Apartment'
 import gridExamplesPage from './gridExamples';
+
 
 class App extends Component {
   render() {
     return (
-      
-      <div className="App">
-        {gridExamplesPage()}
-        <div class="header-image">
-          <img
-                src="https://live.staticflickr.com/7898/32588548347_102e2859a7_z.jpg"
-                className="img-fluid"
-                alt=""
-          />
-        </div>
-          <Welcome />
+      <Router>
+      <div>
+        <div className="App">
+          {gridExamplesPage()}
+        </div>  
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/eating" component={Eating} />
+        <Route exact path="/to-do" component={ToDo} />
+        <Route exact path="/apartment" component={Apartment} />
       </div>
+      </Router>
+      
     );
   }
 }
