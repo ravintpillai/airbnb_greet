@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import {Landing} from './Landing';
-import {Eating} from './Eating'
-import {ToDo} from './ToDo'
-import {Apartment} from './Apartment'
-import gridExamplesPage from './gridExamples';
+import {Landing} from './Sections/Landing';
+import {Eating} from './Sections/Eating'
+import {ToDo} from './Sections/ToDo'
+import {Apartment} from './Sections/Apartment'
+import header from './header';
 
 
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
       <div>
         <div className="App">
-          {gridExamplesPage()}
+          {header()}
         </div>  
         <Route exact path="/" component={Landing} />
         <Route exact path="/eating" component={Eating} />

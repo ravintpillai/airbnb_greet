@@ -3,7 +3,7 @@ import {BrowserRouter as Router, NavLink, Route} from 'react-router-dom';
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import './index.css';
 
-const gridExamplesPage = () => {
+const header = () => {
   return (
     <MDBContainer>
         <MDBRow className = "header-row">
@@ -16,4 +16,4 @@ const gridExamplesPage = () => {
   );
 }
 
-export default gridExamplesPage;
+export default header;
