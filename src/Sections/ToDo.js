@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
-"mdbreact";
-import ToDoCarousel from './Carousels/ToDoCarousel';
+import { MDBContainer } from "mdbreact";
+import {ToDoCarousel} from './Carousels/ToDoCarousel';
 
 export class ToDo extends Component {
     render(){
@@ -9,7 +8,6 @@ export class ToDo extends Component {
             <div>
                 <ToDoCarousel />
                 <MDBContainer>
-                    <p className="headline-text">There are many things to do in London!</p>
                     <div>
                         <h1>Partying / Clubbing</h1>
                         <p>London is famous for its night-life, and there are many different areas you can go out in - each with its own distinct vibe and experience to offer. Here are some of my personal recommendations:
@@ -48,15 +46,15 @@ export class ToDo extends Component {
                                 <ul>
                                     <li>Big Ben, Parliament, Westminster Abbey</li>
                                     <li>Trafalgar Square, The National Gallery & The National Portrait Gallery (Free!)</li>
-                                    <li>Covent Garden (the most beautiful of all London's central square's, and home to the Royal Opera House and Ballet</li>
+                                    <li>Covent Garden (the most beautiful of all London's central squares, and home to the Royal Opera House and Ballet)</li>
                                     <li>Somerset House (a former Royal Palace)</li>
-                                    <li>Ye Olde Cheshire Cheese (Charles Dickens' favourite Pub</li>
+                                    <li>Ye Olde Cheshire Cheese (Charles Dickens' favourite Pub)</li>
                                     <li>The Royal Courts of Justice</li>
                                     <li>St Paul's Cathedral</li>
                                     <li>The Tower of London / Tower Bridge</li>
                                     <li>St Katherine's Docks (one of London's hidden gems)</li>
                                     <li>Borough Market (a famous London street market)</li>
-                                    <li>The Shard (the tallest skyscraper in Europe</li>
+                                    <li>The Shard (the tallest skyscraper in Europe)</li>
                                     <li>Shakespeare's Globe Theatre</li>
                                     <li>The Tate Modern - one of the world's pre-eminent galleries and free!</li>
                                     <li>The National Theatre</li>
