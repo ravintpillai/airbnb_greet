@@ -17,8 +17,8 @@ class App extends Component {
           {header()}
         </div>  
         <Route exact path="/" component={Landing} />
+        <Route exact path="/to-do" component={ToDo} />        
         <Route exact path="/eating" component={Eating} />
-        <Route exact path="/to-do" component={ToDo} />
         <Route exact path="/apartment" component={Apartment} />
       </div>
       </Router>
