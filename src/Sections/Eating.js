@@ -39,7 +39,7 @@ export class Eating extends Component {
                             <li>The Araki - 3 Star Michelin Restaurant - Japanese Food</li>
                         </ul>
                     </p>
-                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=120ziQ05Q65Na4WYL2v_l0YvMDAjftSDk" width="640" height="480"></iframe>                
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=120ziQ05Q65Na4WYL2v_l0YvMDAjftSDk" width="640" height="480" title="eating_map"></iframe>                
                 </div>
                 </MDBContainer>
             </div>

@@ -67,7 +67,9 @@ export class ToDo extends Component {
                         width="600" 
                         height="450" 
                         frameborder="0" 
-                        allowfullscreen>
+                        allowfullscreen
+                        title="to_do_map"
+                        >
                     </iframe>
                 </div>
                 </MDBContainer>

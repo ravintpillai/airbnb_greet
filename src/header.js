@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, NavLink, Route} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import './index.css';
 
