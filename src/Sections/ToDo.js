@@ -8,6 +8,7 @@ export class ToDo extends Component {
             <div>
                 <ToDoCarousel />
                 <MDBContainer>
+                    <br />                    
                     <div>
                         <h1>Partying / Clubbing</h1>
                         <p>London is famous for its night-life, and there are many different areas you can go out in - each with its own distinct vibe and experience to offer. Here are some of my personal recommendations:

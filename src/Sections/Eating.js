@@ -10,6 +10,7 @@ export class Eating extends Component {
         return (
             <div>
                 <EatingCarousel />
+                <br />
                 <MDBContainer>
                 <div>
                     <h1>British Indian Food</h1>
