@@ -15,7 +15,9 @@ export class EatingCarousel extends Component {
                 <MDBCarouselInner>
                     <MDBCarouselItem itemId="1">
                     <MDBView>
-                        <img className="d-block w-100" src={curry} height={620} alt="First slide" />
+                        <div className="outer-image">
+                            <img className="d-block w-100 h-100" src={curry} alt="First slide" />
+                        </div>
                         <MDBMask overlay="black-light" />
                     </MDBView>
                     <MDBCarouselCaption>
@@ -24,7 +26,9 @@ export class EatingCarousel extends Component {
                     </MDBCarouselItem>
                     <MDBCarouselItem itemId="2">
                     <MDBView>
-                        <img className="d-block w-100" src={fish_and_chips} height={620} alt="Second slide" />
+                        <div className="outer-image">
+                            <img className="d-block w-100" src={fish_and_chips} alt="Second slide" />
+                        </div>
                         <MDBMask overlay="black-light" />
                     </MDBView>
                     <MDBCarouselCaption>
@@ -33,7 +37,9 @@ export class EatingCarousel extends Component {
                     </MDBCarouselItem>
                     <MDBCarouselItem itemId="3">
                     <MDBView>
-                        <img className="d-block w-100" src={ramsay} height={620} alt="Third slide" />
+                        <div className="outer-image">
+                            <img className="d-block w-100" src={ramsay} alt="Third slide" />
+                        </div>
                         <MDBMask overlay="black-light" />
                     </MDBView>
                     <MDBCarouselCaption>

@@ -29,6 +29,12 @@
   text-align: center;
 }
 
+.outer-image {
+  max-height: 730px;
+  height: 100%;
+  overflow: hidden;
+}
+
 .Welcome {
   text-align: center;  
   font-size: calc(10px + 2vmin);
