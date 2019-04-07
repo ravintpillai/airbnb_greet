@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../App.css';
 import { MDBContainer } from "mdbreact";
 import {ToDoCarousel} from './Carousels/ToDoCarousel';
 
@@ -6,7 +7,7 @@ export class ToDo extends Component {
     render(){
         return (
             <div>
-                <ToDoCarousel />
+                <ToDoCarousel className="mobile-hide"  />
                 <MDBContainer>
                     <br />                    
                     <div>

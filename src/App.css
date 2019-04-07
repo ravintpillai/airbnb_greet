@@ -14,7 +14,6 @@
   color: #fff;
 }
 
-
 .header-image {
   display: block;
   margin-left: auto;
@@ -48,4 +47,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@media screen and (min-width: 600px) {
+  /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+ .mobile-hide {
+    display: none !important;
+ }
 }

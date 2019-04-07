@@ -9,7 +9,7 @@ export class Eating extends Component {
     render(){
         return (
             <div>
-                <EatingCarousel />
+                <EatingCarousel className="mobile-hide" />
                 <br />
                 <MDBContainer>
                 <div>
