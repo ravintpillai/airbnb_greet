@@ -7,7 +7,9 @@ export class ToDo extends Component {
     render(){
         return (
             <div>
-                <ToDoCarousel className="mobile-hide"  />
+                <div className="mobile-hide">
+                    <ToDoCarousel/>
+                </div>
                 <MDBContainer>
                     <br />                    
                     <div>
