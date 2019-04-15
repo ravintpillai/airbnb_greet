@@ -20,6 +20,7 @@ export class Apartment extends Component {
                         <li>Where are the keys?
                             <br />
                             Please *don't* get the keys from the Porter's Lodge. However, you can grab the keys you need from a lockbox outside the apartment. The instructions for collecting the keys should be sent to you by my support team.
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/DQ9n28wzRf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </li>
 
                     </ul> 
