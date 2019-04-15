@@ -16,6 +16,11 @@ export class Apartment extends Component {
                             There are two electric heaters, one big one in the corner of the living room. This has a switch in the bottom corner by where the Router is.
                             The other one is in the corner of the bedroom, is big and black and looks like a TV. Press the power button and then the up button. On the screen, you should
                             see a little fire/sun. If the sun has a box around it, the heater is on. It takes a few minutes to really warm up (less than 5) but is very powerful when it is going.
+                            Living Room heater:
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/H3kKGl28RrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <br />
+                            Bedroom Heater
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mDhz1lz4K1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </li>
                         <li>Where are the keys?
                             <br />
